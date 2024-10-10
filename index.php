@@ -1,5 +1,14 @@
 <?php
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
 // Database connection
 $servername = "your_servername";
 $username = "your_username";
@@ -20,6 +29,6 @@ if ($conn->query($sql) === TRUE) {
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
-
+<script src="script.js"></script>
 $conn->close();
 ?>
